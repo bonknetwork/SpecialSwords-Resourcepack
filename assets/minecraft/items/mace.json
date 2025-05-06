@@ -4,13 +4,13 @@
     "property": "minecraft:custom_model_data",
     "cases": [
       {
-        "when": "smasher",
+        "when": "lifted_smasher",
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:selected",
           "on_true": {
             "type": "minecraft:model",
-            "model": "special:item/smasher"
+            "model": "special:item/lifted_smasher"
           },
 		  "on_false": {
             "type": "minecraft:model",

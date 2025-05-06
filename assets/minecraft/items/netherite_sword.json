@@ -1,0 +1,27 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "cases": [
+        {
+          "when": "smasher",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:selected",
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "special:item/smasher"
+            },
+        "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_sword"
+      }
+    }
+  }
