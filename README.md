@@ -1,0 +1,2 @@
+# SpecialSwords_Resourcepack
+
